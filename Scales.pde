@@ -23,6 +23,6 @@ while(diam < 30){
   stroke((float)((float)100.0/Math.random()),g,(float)((float)150.0/Math.random()));
   ellipse(x,y,diam,diam+15);
   diam++;
-  g+=255/20.0*Math.random();
+  g+=255/20.0;
 }
 }
